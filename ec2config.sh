@@ -6,4 +6,4 @@ chkconfig httpd on
 service httpd start
 cd /var/www/html
 echo “java developer zone is a knowledge sharing platform” > index.php
-wget https://ktexpertsbucket.s3.ap-south-1.amazonaws.com/connect.php
+wget https://javadeveloperzone.s3.amazonaws.com/connect.php
