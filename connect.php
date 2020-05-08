@@ -1,8 +1,8 @@
 <?php 
-$username = "mydbinstance"; 
-$password = "mydbinstance"; 
-$hostname = "mydbinstance.cagqucznplkq.ap-southeast-1.rds.amazonaws.com"; 
-$dbname = "mydbinstance";
+$username = "admin"; 
+$password = "adminadmin"; 
+$hostname = "javadeveloperzone.cn7vgclpiwas.us-east-1.rds.amazonaws.com"; 
+$dbname = "javadeveloperzone";
 
 //connection to the database
 $dbhandle = mysql_connect($hostname, $username, $password) or die("Unable to connect to MySQL"); 
