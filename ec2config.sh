@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo su
 yum install httpd php php-mysql -y
+yum install wget -y
 yum update -y
 chkconfig httpd on
 service httpd start
